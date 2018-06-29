@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { DummyDialogComponent } from './dummy-dialog/dummy-dialog.component';
+import {LeafletModule} from '@asymmetrik/ngx-leaflet';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { DummyDialogComponent } from './dummy-dialog/dummy-dialog.component';
     DummyDialogComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    LeafletModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
