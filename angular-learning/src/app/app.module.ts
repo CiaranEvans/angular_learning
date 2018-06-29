@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { DummyDialogComponent } from './dummy-dialog/dummy-dialog.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DummyDialogComponent
   ],
   imports: [
     BrowserModule
